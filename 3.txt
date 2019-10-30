@@ -1,5 +1,6 @@
-sum = 0
-i = 0
-sample_list = [8,2,3,0,7]
-sum = sample_list[0]+ sample_list[1]+ sample_list[2]+ sample_list[3]+ sample_list[4]
-print(sum)
+def is_Power_of_four(n):
+  while (n % 4 == 0):
+    n /= 4;         
+  return n == 1;
+
+print(is_Power_of_four(4))

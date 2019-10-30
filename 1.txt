@@ -1,3 +1,6 @@
-name = input(str("Write your name: "))
-surname = input(str("Write your surname: "))
-print (surname,name)
+def is_Power_of_two(n):
+    while (n % 2 == 0):
+         n /= 2;         
+    return n == 1;
+
+print(is_Power_of_three(4))

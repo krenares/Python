@@ -1,5 +1,7 @@
-s = input() 
-def reverse(s): 
-    s = s[::-1] 
-    return s 
-print (reverse(s)) 
+import math
+number = int(input("Enter any number: "))
+root =math.sqrt(number)
+if int(root) ** 2 == number:
+    print("True")
+else:
+    print("False")
