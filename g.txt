@@ -1,0 +1,5 @@
+sum = 0
+i = 0
+sample_list = [8,2,3,0,7]
+sum = sample_list[0]+ sample_list[1]+ sample_list[2]+ sample_list[3]+ sample_list[4]
+print(sum)
