@@ -1,0 +1,14 @@
+#Guess The Number game
+import random
+number=random.randint(0, 51)
+def main():
+    x=int(input('Guess a number one through fifty'))
+    if x == number:
+        print("You got it!")
+    elif x > number:
+        print("too high")
+        main()
+    else:
+        print("too low")
+        main()
+main()
